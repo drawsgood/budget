@@ -114,13 +114,9 @@ html, body {
 	color: #fff;
 }
 
-.container {
-	max-width: 360px;
-}
-
 @media screen and (min-width: 360px) {
 	.container {
-		width: 300px;
+		width: 360px;
 	}
 
 
