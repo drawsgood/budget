@@ -1,0 +1,127 @@
+html, body {
+	background-color: #3498DB;
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	height: 100%;
+}
+
+#alphaContainer {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.myBGColor {
+	background: none;
+	border-style: none;
+	color: #b8e7ff;
+}
+
+.myBGColor2 {
+	background-color: #7cbbf0;
+	border-style: none;
+	color: #7cbbf0;
+}
+
+.myBGColor3 {
+	background-color: #1b5688;
+	border-style: none;
+	color: #92d1f1;
+	font-weight: 200;
+}
+
+.myBorderColor:nth-child(1) {
+	border-bottom-style: solid;
+	border-color: #2079b4;
+	border-bottom-width: 2px;
+	color: #fff;
+}
+
+#list tr:nth-child(even) {
+	background-color: #4daae9;
+}
+
+.myTextColor {
+	color: #92d1f1;
+}
+
+.hidden {
+	display: none;
+}
+
+.removeBoxShadow {
+
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+
+#openBTN {
+	width: 82px;
+	height: 82px;
+	border-radius: 40px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #7cbbf0;
+	margin: 0 auto;
+	font-size: 52px;
+	font-weight: 100;
+	-webkit-transition: all .5s ease;
+	cursor: pointer;
+}
+
+#openBTN:hover {
+	background-color: #7cbbf0;
+	color: #fff;
+}
+
+#openBTN.rotated{
+    -webkit-transform: rotate(45deg);
+}
+
+.activatedStyling {
+		background-color: #7cbbf0;
+		color: #fff;
+}
+
+#openBTN i {
+	display: block;
+	text-align: center;
+	margin: 13% auto;
+
+}
+
+.centerIcon {
+	display: block;
+	text-align: center;
+}
+
+.sectionHeaders {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.btn-submit {
+	background-color: #1ABC9C;
+	color: #fff;
+}
+
+.btn-submit:hover {
+	background-color: #09db8B;
+	color: #fff;
+}
+
+.container {
+	max-width: 360px;
+}
+
+@media screen and (min-width: 360px) {
+	.container {
+		width: 300px;
+	}
+
+
+}
