@@ -39,6 +39,10 @@ html, body {
 	color: #fff;
 }
 
+#list tr {
+	height: 32px;
+}
+
 #list tr:nth-child(even) {
 	background-color: #4daae9;
 }
@@ -112,6 +116,21 @@ html, body {
 .btn-submit:hover {
 	background-color: #09db8B;
 	color: #fff;
+}
+
+.butt {
+	border: none;
+	width: 20px;
+	height: 20px;
+	color: darkblue;
+	background: none;
+}
+
+.nudgeX {
+	position: relative;
+	right: 6px;
+	bottom: 4px;
+	font-size: 24px;
 }
 
 @media screen and (min-width: 360px) {
