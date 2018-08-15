@@ -1,5 +1,16 @@
-var finalNum = 50;
+
+function test(){
+    finalNum = +document.getElementById("userInput").value;
+    document.getElementById("demo").innerHTML = finalNum;
+    return finalNum;
+};
+
 $(document).ready(function() {
+
+	if (typeof finalNum === 'undefined') {
+		console.log("please help");
+	} else {
+
 	$.getJSON("current.json?"+Math.random(), function(obj) {
 		var myVal = obj.startingValue;
 				$.each(obj.entries, function(key, value) {
@@ -20,4 +31,5 @@ $(document).ready(function() {
 
 
 	});
+};
 });
